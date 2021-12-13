@@ -1,4 +1,7 @@
 # NoiseCC.jl: A framwork for large ambient noise cross-correlation (CC) based on SeisNoise.jl.
+
+🚨 **The package is still undergoing development.** 🚨
+
 NoiseCC.jl use Multi-process and Multi-thread to accelerate noise cross-correlation (CC) for large dataset. All the core code for CC comes from [SeisNoise.jl](https://github.com/tclements/SeisNoise.jl), and this package is an example of SeisNoise.jl application. We designed a generic CC framework which is suitable for large-scale Dense-Stations, Large-N and DAS data sets. It is convenient for the subsequent study of noise-imaging and noise-monitor.
 ## Dependencies
 The package NoiseCC.jl runs on Unix-like systems including Mac and Linux. Package need Julia 1.6 or greater. It depends on the following Julia modules:
